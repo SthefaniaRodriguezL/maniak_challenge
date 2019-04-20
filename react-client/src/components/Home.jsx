@@ -7,8 +7,10 @@ class Home extends Component {
 	render(){
 		return (
 			<div>
-			  <h1> I am Home Component</h1>
-			  <button><Link to="/Calculator">go to calculator component</Link></button>
+				<button><Link to="/Testimonial">go to Testimonial component</Link></button>
+				<button><Link to="/Configurator">go to Configurator component</Link></button>
+				<h1> I am Home Component</h1>
+
 			</div>
 		)
 	}
