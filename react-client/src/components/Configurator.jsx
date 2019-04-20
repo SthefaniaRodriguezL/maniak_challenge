@@ -21,7 +21,7 @@ class Configurator extends React.Component {
     //rendering the API information
     console.log(this.state.calculate);
     return (<div>
-    {Object.keys(this.state.calculate).hasOwnProperty.map(prop=> <div>{prop}</div>)}
+    {Object.keys(this.state.calculate).map(prop=> <div>{prop}</div>)}
     </div>)
   }
 }

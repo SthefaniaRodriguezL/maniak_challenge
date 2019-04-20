@@ -16,7 +16,6 @@ class Testimonial extends React.Component {
   render () {
     console.log(this.state.stories);
     return (<div>
-    {this.state.stories}
     </div>)
   }
 }
