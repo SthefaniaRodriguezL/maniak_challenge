@@ -16,9 +16,9 @@ class Configurator extends React.Component {
   }
 
   render () {
-    console.log(this.state.calculate);
+     console.log(this.state.calculate);
     return (<div>
-    {object.keys(this.state.calculate).map(prop=> <div>{prop}</div>)}
+      {object.keys(this.state.calculate).map(function(prop, key) <div key ={key}>{prop}</div>)}
     </div>)
   }
 }
