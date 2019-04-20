@@ -3,6 +3,7 @@ import React from 'react';
 class Configurator extends React.Component {
  constructor() {
    super()
+   // setting up the state to calculate the information
    this.state = {
      calculate: []
    }
@@ -16,9 +17,11 @@ class Configurator extends React.Component {
   }
 
   render () {
-     console.log(this.state.calculate);
+    // console logging the API.
+    //rendering the API information
+    console.log(this.state.calculate);
     return (<div>
-      {object.keys(this.state.calculate).map(function(prop, key) <div key ={key}>{prop}</div>)}
+    {Object.keys(this.state.calculate).hasOwnProperty.map(prop=> <div>{prop}</div>)}
     </div>)
   }
 }
