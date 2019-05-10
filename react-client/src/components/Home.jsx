@@ -22,6 +22,13 @@ class Home extends Component {
 			<div>
 				<button><Link to="/Testimonial">go to Testimonial component</Link></button>
 				<button><Link to="/Configurator">go to Configurator component</Link></button>
+				<button><Link to="/Home">go to Configurator component</Link></button>
+				<button><Link to="/Solutions">go to Configurator component</Link></button>
+				<button><Link to="/Stories">go to Configurator component</Link></button>
+				<button><Link to="/Partners">go to Configurator component</Link></button>
+				<button><Link to="/About">go to Configurator component</Link></button>
+				<button><Link to="/Blog">go to Configurator component</Link></button>				
+
 				<h1> wtf </h1>
 			</div>
 		)
