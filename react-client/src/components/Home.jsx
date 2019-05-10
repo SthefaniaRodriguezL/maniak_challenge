@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+ import React, { Component } from 'react';
 import {Link} from "react-router-dom";
 
 
@@ -20,14 +20,14 @@ class Home extends Component {
 		console.log(this.state.general);
 		return (
 			<div>
-				<button><Link to="/Testimonial">go to Testimonial component</Link></button>
-				<button><Link to="/Configurator">go to Configurator component</Link></button>
-				<button><Link to="/Home">go to Configurator component</Link></button>
-				<button><Link to="/Solutions">go to Configurator component</Link></button>
-				<button><Link to="/Stories">go to Configurator component</Link></button>
-				<button><Link to="/Partners">go to Configurator component</Link></button>
-				<button><Link to="/About">go to Configurator component</Link></button>
-				<button><Link to="/Blog">go to Configurator component</Link></button>				
+				<button><Link to="/Testimonial">Testimonial</Link></button>
+				<button><Link to="/Configurator">Configurator</Link></button>
+				<button><Link to="/Home">Home</Link></button>
+				<button><Link to="/Solutions">Solutions</Link></button>
+				<button><Link to="/Stories">Stories</Link></button>
+				<button><Link to="/Partners">Partners</Link></button>
+				<button><Link to="/About">About</Link></button>
+				<button><Link to="/Blog">Blog</Link></button>
 
 				<h1> wtf </h1>
 			</div>
