@@ -1,0 +1,12 @@
+body {
+  background-color: blue;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  display: 1px;
+  flex-direction: column;
+  justify-content: space-between;
+}

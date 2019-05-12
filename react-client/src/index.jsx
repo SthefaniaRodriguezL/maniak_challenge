@@ -7,22 +7,7 @@ import Configurator from './components/Configurator.jsx';
 import Testimonial from './components/Testimonial.jsx';
 import Home from './components/Home.jsx';
 
-
-
-
-
 class App extends React.Component {
- constructor() {
-   super()
-   this.state = {
-     data: []
-   }
- }
-  componentDidMount() {
-    fetch("https://raw.githubusercontent.com/Bernabe-Felix/Bellotero/master/app.json")
-    .then(rsp => rsp.json())
-    .then(rsp => { this.setState({data: rsp})});
-  }
 
   render() {
     return (

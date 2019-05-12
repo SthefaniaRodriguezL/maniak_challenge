@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 class Testimonial extends React.Component {
  constructor() {
@@ -16,6 +17,8 @@ class Testimonial extends React.Component {
   render () {
     console.log(this.state);
     return (<div>
+      <button><Link to="/Stories">Stories</Link></button>
+      <button><Link to="/About">About</Link></button>
       <h1>
         {this.state.stories.title}
       </h1>
